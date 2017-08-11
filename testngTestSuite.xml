@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.actiTime.customListner.Listener" />
+	</listeners>
+	<test name="Regression">
+		<classes>	
+			<class name="com.actiTime.testScripts.login.TestLoginFlow" />			
+ 			<class name="com.actiTime.testScripts.login.TestLoginwithInputFromPropertiesFile" /> 
+ 			<class name="com.actiTime.testScripts.login.TestLoginWithParameterization" /> 
+			<class name="com.actiTime.testScripts.placingOrders.TestOrderHistory" />
+			<class name="com.actiTime.testScripts.placingOrders.TestUpdateMyAddresses" /> 
+		</classes>
+	</test> 
+	
+	<!-- <test name="Smoke">
+		<classes>			
+ 			<class name="com.actiTime.testScripts.login.TestLoginFlow" />
+			<class name="com.actiTime.testScripts.placingOrders.TestOrderHistory" />
+			<class name="com.actiTime.testScripts.placingOrders.TestUpdateMyAddresses" />
+		</classes>
+	</test>
+ -->
+ 
+ </suite> 

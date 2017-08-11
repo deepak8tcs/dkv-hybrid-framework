@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.actiTime.customListner.Listener"/>
+  </listeners>
+  <test name="Regression(failed)">
+    <classes>
+      <class name="com.actiTime.testScripts.login.TestLoginwithInputFromPropertiesFile">
+        <methods>
+          <include name="tearDownDriver"/>
+          <include name="closeReporting"/>
+          <include name="setUpDriver"/>
+          <include name="testLogout"/>
+          <include name="setUpReporting"/>
+          <include name="setUpPages"/>
+        </methods>
+      </class> <!-- com.actiTime.testScripts.login.TestLoginwithInputFromPropertiesFile -->
+      <class name="com.actiTime.testScripts.placingOrders.TestUpdateMyAddresses">
+        <methods>
+          <include name="setUpPages"/>
+          <include name="testUpdateAddress"/>
+          <include name="tearDownDriver"/>
+          <include name="closeReporting"/>
+          <include name="setUpDriver"/>
+          <include name="setUpReporting"/>
+        </methods>
+      </class> <!-- com.actiTime.testScripts.placingOrders.TestUpdateMyAddresses -->
+      <class name="com.actiTime.testScripts.login.TestLoginWithParameterization">
+        <methods>
+          <include name="tearDownDriver"/>
+          <include name="testLoginWithParameterization" invocation-numbers="1"/>
+          <include name="closeReporting"/>
+          <include name="setUpDriver"/>
+          <include name="setUpReporting"/>
+          <include name="setUpPages"/>
+        </methods>
+      </class> <!-- com.actiTime.testScripts.login.TestLoginWithParameterization -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [Suite] -->

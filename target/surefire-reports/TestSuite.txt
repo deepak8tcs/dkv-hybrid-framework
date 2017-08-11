@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 2, Errors: 0, Skipped: 1, Time elapsed: 194.538 s <<< FAILURE! - in TestSuite
+testLogout(com.actiTime.testScripts.login.TestLoginwithInputFromPropertiesFile)  Time elapsed: 3.623 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.actiTime.testScripts.login.TestLoginwithInputFromPropertiesFile.testLogout(TestLoginwithInputFromPropertiesFile.java:37)
+
+testUpdateAddress(com.actiTime.testScripts.placingOrders.TestUpdateMyAddresses)  Time elapsed: 12.262 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.actiTime.testScripts.placingOrders.TestUpdateMyAddresses.testUpdateAddress(TestUpdateMyAddresses.java:32)
+
