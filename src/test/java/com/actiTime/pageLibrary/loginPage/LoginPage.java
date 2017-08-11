@@ -9,7 +9,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.Reporter;
 
-import com.actiTime.testUtils.BasePage;
+import com.actiTime.testBase.BasePage;
 
 public class LoginPage extends BasePage {
 

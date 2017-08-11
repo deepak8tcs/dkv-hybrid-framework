@@ -5,10 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.testng.Reporter;
-
 import com.actiTime.pageLibrary.loginPage.LoginPage;
-import com.actiTime.testUtils.BasePage;
+import com.actiTime.testBase.BasePage;
 
 public class OrderManagementPage extends BasePage {
 

@@ -28,7 +28,7 @@ public class ExcelManager {
 	private XSSFCell cell;
 	private XSSFRow row;
 
-	private static final String excelFilePath = "./src/test/java/com/actiTime/testData/";
+	private static final String excelFilePath = "./src/test/resources/excelData/";
 	private static final String inputFileName = "input.xlsx";
 
 	public static ExcelManager excelManager = null;

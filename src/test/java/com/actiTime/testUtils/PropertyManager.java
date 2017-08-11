@@ -9,7 +9,7 @@ public class PropertyManager {
 	public File file;
 	public FileInputStream fis;
 	private static PropertyManager propertyManager = null;
-	private static final String propertiesFilePath = "./src/test/java/com/actiTime/properties/";
+	private static final String propertiesFilePath = "./src/test/resources/properties/";
 	private static final String configFileName = "config.properties";
 	private static final String inputFileName = "input.properties";
 
